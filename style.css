@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+body, html{
+   
+    height: 100%;
+    background: linear-gradient( to bottom,white,white, white, white, white, #009de0,  blue);
+    color: #009de0;
+   
+}
+
+/*inicio do cabecalho*/
+header{
+    border: 2px solid red;
+    width: 80%;
+    margin: 0 auto;
+    height: 170px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+    color: white;
+    
+}
+
+.nome{
+    width: 35%;  
+    height: 250px;
+    
+    
+}
+
+.nome img{
+    width: 400px;
+    padding-left: 180px;
+    
+
+}
+
+
+.menu{
+    width: 52%;
+    padding-top: 80px;
+    
+
+}
+
+.menu ul li{
+    float: right;
+    text-decoration: none;
+    list-style: none;
+    padding: 0 25px; 
+    margin-right: 50px;    
+    margin-top: 10px;  
+
+}
+
+.menu li a{
+    text-decoration: overline ;
+    color: #009de0;  
+    padding: 5px 12px;
+    border-radius: 5px;
+    
+    
+}
+
+.menu li a:hover{
+    background: black;
+    color: white;
+    text-decoration: none;
+}
+
+.clear{
+    clear: both;
+}
+
+
+/*final do cabecalho*/
+
+/*inicio do corpo home*/
+section{
+    width: 80%;
+    height: 600px;
+    margin: 0 auto;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 450px;
+}
+
+.foto{
+    width: 23%;
+
+}
+
+.foto img{
+    border-radius: 200px 5px 200px 5px;
+    border: 7px solid blue;
+    margin-left: 285px;
+    position: center;
+}
+
+.texto{
+    width: 50%;
+    text-align: center;
+    font-size: 25px;
+    margin-left:165px;
+}
+
+button{
+    color: white;
+    font-size: 15px;
+    background: blue;
+    width: 200px;
+    height: 50px;
+    border: 1px solid white;
+    border-radius: 10px;
+
+}
+
+button:hover{
+    background: black;
+}
+
+
+
+.redes{
+    width: 5%;
+    height: 150px;
+    margin-left: 0;
+    margin-bottom: 120px;
+}
+
+.redes ul li{
+    list-style: none;
+    padding: 20px 0;
+    
+
+}
+/*final do corpo home*/
+
+/*inicio do contato*/
+
+.contato{
+    width: 35%;
+    height: 55%;
+    margin:0 auto;
+    margin-top: 60px;
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    background: #ffffff62;
+    border-radius: 25px;
+    border: 4px solid #009de0;
+}   
+
+.caixa1{
+    width: 75%;
+    text-align: center;
+    padding-top: 85px;
+}
+
+.caixa2{
+    width: 15%;
+    padding-right: 150px;
+}
+
+.caixa2 ul li{
+    list-style: none;
+}
+
+
+
